@@ -1,11 +1,8 @@
-'use strict';
+/* Angular Directives */
 
-/* Directives */
+;(function (angular) {
+"use strict";
 
+var app = angular.module("", []);
 
-angular.module('myApp.directives', []).
-  directive('appVersion', ['version', function(version) {
-    return function(scope, elm, attrs) {
-      elm.text(version);
-    };
-  }]);
+}) (angular);

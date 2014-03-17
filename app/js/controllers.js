@@ -1,11 +1,8 @@
-'use strict';
+/* Angular Controllers */
 
-/* Controllers */
+;(function (angular) {
+"use strict";
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+var app = angular.module("", []);
 
-  }])
-  .controller('MyCtrl2', [function() {
-
-  }]);
+}) (angular);
